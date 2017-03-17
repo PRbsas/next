@@ -1,19 +1,19 @@
 import Layout from '../components/layout'
 
 export default () => (
-  <Layout title='Red'>
-    <div className='red'>
-      <div>Red</div>
+  <Layout title='Blue'>
+    <div className='blue'>
+      <div>Blue</div>
       <style jsx>{`
-      .red {
+      .blue {
         font: 15px Helvetica, Arial, sans-serif;
-        background: #ff0000;
+        background: #0000ff;
         color: #fff;
         padding: 100px;
         text-align: center;
       }
     `}</style>
     </div>
-
+    
   </Layout>
 )
