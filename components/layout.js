@@ -19,7 +19,7 @@ export default ({ children, title = 'This is the default title' }) => (
     { children }
 
     <footer className='center'>
-      I'm here to stay
+      This stays
     </footer>
     <style jsx>{`
       .center {
